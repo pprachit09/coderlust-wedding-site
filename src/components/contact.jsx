@@ -9,7 +9,7 @@ export class Contact extends Component {
             <div className="col-md-8">
               <div className="row">
                 <div className="section-title">
-                  <h2>Get In Touch</h2>
+                  <h2>Get In Touch with us for similar websites</h2>
                   <p>
                     Please fill out the form below to send us an email and we
                     will get back to you as soon as possible.
@@ -93,19 +93,19 @@ export class Contact extends Component {
                   <ul>
                     <li>
                       <a
-                        href={this.props.data ? this.props.data.facebook : "/"}
+                        href={this.props.data ? this.props.data.facebook : "/"} target="_blank" rel="noopener noreferrer"
                       >
                         <i className="fa fa-facebook"></i>
                       </a>
                     </li>
                     <li>
-                      <a href={this.props.data ? this.props.data.twitter : "/"}>
-                        <i className="fa fa-twitter"></i>
+                      <a href={this.props.data ? this.props.data.instagram : "/"} target="_blank" rel="noopener noreferrer">
+                        <i className="fa fa-instagram"></i>
                       </a>
                     </li>
                     <li>
-                      <a href={this.props.data ? this.props.data.youtube : "/"}>
-                        <i className="fa fa-youtube"></i>
+                      <a href={this.props.data ? this.props.data.github : "/"} target="_blank" rel="noopener noreferrer">
+                        <i className="fa fa-github"></i>
                       </a>
                     </li>
                   </ul>
@@ -117,7 +117,7 @@ export class Contact extends Component {
         <div id="footer">
           <div className="container text-center">
             <p>
-              &copy; 2020 Issaaf Kattan React Land Page Template. Design by{" "}
+              &copy; 2020 coderlust. Design by{" "}
               <a href="http://www.templatewire.com" rel="nofollow">
                 TemplateWire
               </a>
